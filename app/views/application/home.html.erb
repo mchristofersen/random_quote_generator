@@ -1,0 +1,37 @@
+<body id="body">
+<ul class='page-wrapper'>
+  <li class='sidebar'>
+    <span class='k'style='font-weight:900; font-size:50'>R</span>
+    <span class='k'style='font-weight:800; font-size:40'>a</span>
+    <span class='k' style='font-weight:700; font-size:38'>n</span>
+    <span class='k' style='font-weight:600; font-size:36'>d</span>
+    <span class='k'style='font-weight:500; font-size:38'>o</span>
+    <span class='k'style='font-weight:400; font-size:42'>m</span>
+    <span class='glyphicon glyphicon-arrow-down k' style='font-weight:300; font-size:38; margin-top:4px; margin-bottom:4px;'></span>
+    <span class='k' style='font-weight:200; font-size:36'>Q</span>
+    <span class='k' style='font-weight:400; font-size:34'>u</span>
+    <span class='k' style='font-weight:600; font-size:32'>o</span>
+    <span class='k' style='font-weight:800; font-size:30'>t</span>
+    <span class='k' style='font-weight:900; font-size:28'>e</span>
+    </div>
+  <li class="panel panel-primary" id='container'>
+    <div class="panel-heading">
+      <h3 class="panel-title"></h3>
+      <% if current_user %>
+       <%= link_to "",tweets_preview_path, class:'btn btn-info pull-right fa fa-twitter', style:'font-weight:bold;font-size:20px;',id:'first' %>
+       <% else %>
+      <%= link_to "",'/auth/twitter', class:'btn btn-info pull-right fa fa-twitter', style:'font-weight:bold;font-size:20px;',id:'first'%>
+       <% end %>
+      </div>
+    </div>
+    <div class="panel-body" id='quotes'>
+    </div>
+  </li>
+</ul>
+<br>
+
+<div href="#bottom" class='btn btn-primary btn-block' id='quote-button'>
+  <span class='glyphicon glyphicon-refresh' style='margin-right:5px;'></span> Next Quote
+</div>
+</body>
+<%= console %>

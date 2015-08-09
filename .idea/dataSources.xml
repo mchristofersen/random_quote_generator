@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1212229836">
+    <data-source source="LOCAL" name="Rails G-o-T-o-Q-u-o-t-e-s: development" uuid="a4dfe850-5423-4f1b-9e11-00ff4fdc0f86">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:G-o-T-o-Q-u-o-t-e-s_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails G-o-T-o-Q-u-o-t-e-s: test" uuid="5a6973f9-a539-41ec-92fc-5084414279f5">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:G-o-T-o-Q-u-o-t-e-s_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails G-o-T-o-Q-u-o-t-e-s: production" uuid="ab46743a-a9e2-4ed0-b138-1ab742914ea1">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:G-o-T-o-Q-u-o-t-e-s_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>

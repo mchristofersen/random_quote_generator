@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails G-o-T-o-Q-u-o-t-e-s: development" uuid="a4dfe850-5423-4f1b-9e11-00ff4fdc0f86">
+      <user-name>postgres</user-name>
+      <user-password>dfe7dfc3dfc9dfc2dfcbdfcfdfc6df9b</user-password>
+      <schema-pattern>G-o-T-o-Q-u-o-t-e-s_development.pg_catalog G-o-T-o-Q-u-o-t-e-s_development.public</schema-pattern>
+      <default-schemas>G-o-T-o-Q-u-o-t-e-s_development.pg_catalog G-o-T-o-Q-u-o-t-e-s_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails G-o-T-o-Q-u-o-t-e-s: test" uuid="5a6973f9-a539-41ec-92fc-5084414279f5">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails G-o-T-o-Q-u-o-t-e-s: production" uuid="ab46743a-a9e2-4ed0-b138-1ab742914ea1">
+      <first-sync>true</first-sync>
+      <user-name>G-o-T-o-Q-u-o-t-e-s</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeddf87dfe5df87dffedf87dfe5df87dffbdf87dfffdf87dfe5df87dffedf87dfefdf87dff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

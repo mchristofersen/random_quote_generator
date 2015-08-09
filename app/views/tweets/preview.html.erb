@@ -1,0 +1,11 @@
+<script>
+
+</script>
+<%= path=current_user.profile_image %>
+<div class="jumbotron">
+  <%= form_for(@tweet) do |f| %>
+  <%= image_tag(path,remote:true)%>
+   <%= f.text_area :content, value:"some quote" %>
+   <%= f.submit class:'glyphicon glyphicon-submit' %>
+   <% end %>
+</div>

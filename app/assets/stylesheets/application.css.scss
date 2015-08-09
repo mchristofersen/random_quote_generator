@@ -1,0 +1,162 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+
+html, #body {
+    background-color: #607D8B;
+    font-size: inherit !important;
+    border: 1px solid #979797;
+    overflow: visible;
+    padding: 0% !important;
+    padding-left: 0px !important;
+    margins: 0% !important;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0px !important;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+ul {
+    list-style: none !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.sidebar {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+    width: 60px;
+    color: white !important;
+    /* Rectangle 7: */
+    background: #FFA000;
+    border-radius: 8px;
+    font-family: Proxima-nova-bold;
+    padding: 2%;
+  transistion: .3s;
+}
+#k {
+  transform: rotate(3turn);
+
+}
+
+.main-panel {
+    justify-self: center;
+    width: 40%;
+    flex-grow: 3;
+}
+
+#quotes, .panel {
+    font-size: 36px;
+    font-family: Proxima-nova;
+    background-color: #CFD8DC;
+}
+
+#quote-button {
+    min-height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+
+    font-size: 32px !important;
+    justify-self: center;
+    align-self: stretch;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.panel {
+    margin-left: 15px !important;
+    background-color: #CFD8DC !important;
+}
+
+.panel-primary {
+    header-background-color: #777777 !important;
+    display: flex !important;
+  flex-direction:column;
+    justify-content: center !important;
+    background: grey !important;
+    font-family: Proxima-nova !important;
+}
+
+.panel-heading {
+    background-color: grey !important;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: Proxima-nova !important;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.panel-title {
+  align-self:center;
+    flex: 10;
+  font-size: 40px;
+}
+
+#first {
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.panel-heading .btn {
+    flex: 1;
+    align-self: center;
+}
+
+.panel-primary > .panel-heading {
+    background-color: #455A64;
+    font-family: Futura;
+}
+
+#quote-button .glyphicon {
+    transition: 1s ease-out;
+    margin-right: 10px !important;
+}
+
+#quote-button .glyphicon:hover {
+    -webkit-transform: rotate(1.75turn) scale(1.5);
+    -webkit-transform-origin: center;
+}
+
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  justify-content: center;
+  line-height: 35px;
+  height:100% !important;
+  flex:1;
+}
+

@@ -1,0 +1,20 @@
+          Prefix Verb   URI Pattern                        Controller#Action
+                 GET    /auth/:provider/callback(.:format) sessions#create
+sessions_destroy GET    /sessions/destroy(.:format)        sessions#destroy
+          tweets GET    /tweets(.:format)                  tweets#index
+                 POST   /tweets(.:format)                  tweets#create
+       new_tweet GET    /tweets/new(.:format)              tweets#new
+      edit_tweet GET    /tweets/:id/edit(.:format)         tweets#edit
+           tweet GET    /tweets/:id(.:format)              tweets#show
+                 PATCH  /tweets/:id(.:format)              tweets#update
+                 PUT    /tweets/:id(.:format)              tweets#update
+                 DELETE /tweets/:id(.:format)              tweets#destroy
+          quotes GET    /quotes(.:format)                  quotes#index
+                 POST   /quotes(.:format)                  quotes#create
+       new_quote GET    /quotes/new(.:format)              quotes#new
+      edit_quote GET    /quotes/:id/edit(.:format)         quotes#edit
+           quote GET    /quotes/:id(.:format)              quotes#show
+                 PATCH  /quotes/:id(.:format)              quotes#update
+                 PUT    /quotes/:id(.:format)              quotes#update
+                 DELETE /quotes/:id(.:format)              quotes#destroy
+            root GET    /                                  quotes#home
