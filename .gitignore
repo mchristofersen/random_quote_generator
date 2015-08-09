@@ -11,5 +11,4 @@
 /log/*
 !/log/.keep
 /tmp
-secrets.yml
-database.yml
+config/secrets.yml
